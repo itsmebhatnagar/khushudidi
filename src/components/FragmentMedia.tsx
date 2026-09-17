@@ -74,8 +74,6 @@ export function FragmentMedia({
   const slotClasses =
     slot === 1
       ? "object-top"
-      : slot === 2
-      ? "-rotate-90 scale-[1.65] translate-x-[18%] origin-center object-center group-hover:scale-[1.7]"
       : "group-hover:scale-[1.03]";
 
   const shared = `aspect-[4/3] w-full object-cover transition-transform duration-700 ease-out ${slotClasses}${
@@ -86,7 +84,7 @@ export function FragmentMedia({
     return (
       <video
         src={found.src}
-        className={shared}
+        className={shared} 
         autoPlay
         muted
         loop
