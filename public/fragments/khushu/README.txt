@@ -1,0 +1,1 @@
+Put Khushu di photos/videos here, named 1, 2, 3, 4 (e.g. 1.jpg, 2.mp4).
